@@ -1,0 +1,895 @@
+@import url(https://fonts.google.com/specimen/Libre+Franklin?query=Libre+Franklin);
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.padding{
+    padding-right: 30px;
+}
+html{
+    width: 100%;
+    scroll-behavior: smooth;
+    transition: .3s;
+    transition: all 0.4s;
+}
+span{
+    color: #ff7200;
+}
+.hero1{
+    background-image: url(images/background\ img.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 60px;
+    height: 105px;
+    left: 70px;
+    top: 43px;
+}
+.navbar{
+    position: absolute;
+    left: 480px;
+    top: 85px;
+    width: 60px;
+    height: 90px;
+    float: left;
+    height: 70px;
+    font-weight: thin;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+}
+ul {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    list-style: none;
+    color: #ffffff;
+    font-family: "Libre Franklin";
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{ 
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    margin-left: 62px;
+    margin-top: 27;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+    
+}
+ul li a:hover{
+    color: #ff7200;
+}
+ul li a{
+    display: block;
+    color: #FFFAF2;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+ul li a.active{
+    border-radius: 50px;
+    margin: 0 5px;
+    background-color: #ffffff;
+
+}
+.zain{
+    overflow: hidden;
+    position: absolute;
+    width: 692px;
+    height: 78px;
+    left: 165px;
+    top: 267px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 78px;  
+    color: #ffffff;
+}
+.webdev{
+    overflow: hidden;
+    color: #ffffff;
+    position: absolute;
+    width: 459px;
+    height: 29px;
+    left: 165px;
+    top: 371px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.cn{
+    width: 160px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 165px;
+    top: 506px;
+}
+.join{
+    border: none;
+    color: #ffffff;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+
+}
+.hero2{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.About{
+    position: absolute;
+    width: 73px;
+    height: 29px;
+    left: 126px;
+    top: 92px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.paragraph1{
+    position: absolute;
+    width: 1107px;
+    height: 97px;
+    left: 135px;
+    top: 138px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.paragraph2{
+    position: absolute;
+    width: 1107px;
+    height: 90px;
+    left: 135px;
+    top: 320px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.hero3{
+    background-color: #FFFAF2;
+    width: 102.3%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.skills{
+    position: absolute;
+    width: 63px;
+    height: 29px;
+    left: 145px;
+    top: 63px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.profileimg{
+    position: absolute;
+    width: 350px;
+    height: 340px;
+    left: 145px;
+    top: 200px;
+    border-radius: 10px; 
+    box-shadow: 0 0 3px black;
+}
+
+/* <!-- line number 1 --> */
+.wrapper1{
+    width: 500px;
+    position: absolute;
+    width: 446px;
+    height: 24px;
+    left: 829px;
+    top: 298px;
+}
+
+.progress-bar1{
+    width: 100%;
+    background-color: #F5D6AB;
+}
+
+.progress-bar-fill1{
+    display: block;
+    height: 22px;
+    background-color: #C66C49;
+}
+/* <!-- line number 2 --> */
+.wrapper2{
+    width: 500px;
+    position: absolute;
+    width: 446px;
+    height: 24px;
+    left: 829px;
+    top: 388px;
+}
+
+.progress-bar2{
+    width: 100%;
+    background-color: #F5D6AB;
+}
+
+.progress-bar-fill2{
+    display: block;
+    height: 22px;
+    background-color: #C66C49;
+}
+/* }<!-- line number 3 --> */
+.wrapper3{
+    width: 500px;
+    position: absolute;
+    width: 446px;
+    height: 24px;
+    left: 829px;
+    top: 478px;
+}
+
+.progress-bar3{
+    width: 100%;
+    background-color: #F5D6AB;
+}
+
+.progress-bar-fill3{
+    display: block;
+    height: 22px;
+    background-color: #C66C49;
+}
+ /* bars next is hear */
+.video{
+position: absolute;
+width: 135px;
+height: 25px;
+left: 640px;
+top: 298px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+}
+.photo{
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 640px;
+    top: 388px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.web{
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 640px;
+    top: 478px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    }
+
+
+.hero4{
+        background-color: #ffffff;
+        width: 100%;
+        height: 120vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+.Bio{
+    position: absolute;
+width: 45px;
+height: 29px;
+left: 165px;
+top: 93px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+.what{
+    position: absolute;
+width: 108px;
+height: 25px;
+left: 168px;
+top: 208px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+}
+.heythere{
+    position: absolute;
+width: 349px;
+height: 137px;
+left: 166px;
+top: 281px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.Portfolioimg{
+    position: absolute;
+width: 635px;
+height: 403px;
+left: 640px;
+top: 274px;
+}
+
+.hero5{
+    background-color: #FFFAF2;
+        width: 102.3%;
+        height: 375px;
+        background-size: cover;
+        background-position: center;
+        padding: 8px 3%;
+        position: relative;
+}
+
+
+.getin{
+    position: absolute;
+width: 378px;
+height: 46px;
+left: 599px;
+top: 76px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 300;
+font-size: 38px;
+line-height: 46px;
+letter-spacing: 0.14em;
+display: flex;
+}
+
+
+
+/* footer icons */
+.youtube{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+left: 604px;
+top: 170px;
+bottom: 169px;
+}
+.youtube:hover{
+    filter: invert(32%) sepia(79%) saturate(6197%) hue-rotate(350deg) brightness(94%) contrast(106%);;
+}
+.instagram{
+    position: absolute;
+left: 678px;
+top: 169px;
+bottom: 169px;
+}
+.instagram:hover{
+    filter: invert(21%) sepia(85%) saturate(3516%) hue-rotate(298deg) brightness(84%) contrast(105%);;
+}
+.facebook{
+    position: absolute;
+left: 741px;
+top: 169px;
+bottom: 169px;
+}
+.facebook:hover{
+    filter: invert(33%) sepia(71%) saturate(4123%) hue-rotate(206deg) brightness(102%) contrast(89%);
+}
+.twitter{
+    position: absolute;
+left: 810px;
+top: 169px;
+bottom: 169px;
+}
+.twitter:hover{
+    filter:invert(58%) sepia(48%) saturate(5793%) hue-rotate(168deg) brightness(100%) contrast(104%);
+ 
+}
+
+
+
+.footer{
+     background-color: #ffffff;
+    width: 100%;
+    height: 55px;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.email{
+    position: absolute;
+width: 282px;
+height: 22px;
+left: 290px;
+top: 17px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.emailtext{
+    color: #ff7200;
+    position: absolute;
+    width: 282px;
+    height: 22px;
+    left: 280px;
+    top: 3px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.emailtext:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and ( max-width: 800px  ) {
+    .hero1{
+    background-image: url(images/background\ img.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 4px 1%;
+    position: relative;
+}
+/* .navbar{
+    position: absolute;
+    left: 480px;
+    top: 85px;
+    width: 60px;
+    height: 90px;
+    float: left;
+    height: 70px;
+    font-weight: thin;
+    cursor: pointer;
+}
+ul {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    list-style: none;
+    color: #ffffff;
+    font-family: "Libre Franklin";
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{ 
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    margin-left: 62px;
+    margin-top: 27;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+} */
+.logo{
+    position: absolute;
+    width: 30px;
+    height: 55px;
+    left: 148px;
+    top: 35px;
+}
+.zain{
+    position: absolute;
+    width: 223px;
+    height: 78px;
+    left: 45px;
+    top: 95px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 78px;  
+    color: #ffffff;
+}
+.webdev{
+    color: #ffffff;
+    position: absolute;
+    width: 217px;
+    height: 29px;
+    left: 47px;
+    top: 159px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 29px;
+}
+.cn{
+    width: 50px;
+    height: 20px;
+    background-color: #ff7200;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 47px;
+    top: 200px;
+}
+.join{
+    border: none;
+    color: #ffffff;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 150;
+    font-size: 11px;
+    line-height: 11px;
+    text-decoration: underline;
+
+}
+/* section 2 */
+.hero2{
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.About{
+    position: absolute;
+    width: 73px;
+    height: 169px;
+    left: 160px;
+    top: 32px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 11px;
+}
+.paragraph1{
+    position: absolute;
+    width: 290px;
+    height: 97px;
+    left: 39px;
+    top: 55px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: justify;
+}
+.paragraph2{
+    position: absolute;
+    width: 290px;
+    height: 97px;
+    left: 39px;
+    top: 295px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: justify;
+}
+.hero3{
+    background-color: #FFFAF2;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.skills{
+    position: absolute;
+    width: 63px;
+    height: 29px;
+    left: 160px;
+    top: 33px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 29px;
+}
+.profileimg{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 70px;
+    top: 100px;
+    border-radius: 10px; 
+    box-shadow: 0 0 3px black;
+}
+/* <!-- line number 1 --> */
+.wrapper1{
+    width: 500px;
+    position: absolute;
+    width: 220px;
+    height: 3px;
+    left: 70px;
+    top: 398px;
+}
+/* <!-- line number 2 --> */
+.wrapper2{
+    width: 500px;
+    position: absolute;
+    width: 446px;
+    width: 220px;
+    height: 3px;
+    top: 468px;
+    left: 70px;
+}
+/* }<!-- line number 3 --> */
+.wrapper3{
+    width: 500px;
+    position: absolute;
+    width: 446px;
+    width: 220px;
+    height: 3px;
+    top: 538px;
+    left: 70px;
+}
+ /* bars text is hear */
+.video{
+    /* this is web text */
+position: absolute;
+width: 135px;
+height: 25px;
+left: 70px;
+top: 365px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+}
+.photo{
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 70px;
+    top: 505px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.web{
+    /* this is video text */
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 70px;
+    top: 435px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    }
+.hero4{
+        background-color: #ffffff;
+        width: 80%;
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+        padding: 8px 3%;
+        position: relative;
+}
+.Bio{
+    position: absolute;
+    width: 45px;
+height: 29px;
+left: 160px;
+top: 93px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 900;
+font-size: 27px;
+line-height: 29px;
+}
+.what{
+    position: absolute;
+    width: 104px;
+height: 29px;
+left: 135px;
+top: 145px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+}
+.heythere{
+    position: absolute;
+    width: 290px;
+    height: 97px;
+    left: 39px;
+    top: 195px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: justify;
+}
+    .Portfolioimg{
+    position: absolute;
+width: 325px;
+height: 180px;
+left: 30px;
+top: 300px;
+}
+.hero5{
+    background-color: #FFFAF2;
+        width: 100%;
+        height: 275px;
+        background-size: cover;
+        background-position: center;
+        padding: 8px 3%;
+        position: relative;
+}
+.getin{
+    position: absolute;
+width: 210px;
+height: 46px;
+left: 80px;
+top: 60px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 300;
+font-size: 27px;
+line-height: 46px;
+letter-spacing: 0.14em;
+display: flex;
+}
+/* footer icons */
+.youtube{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 73px;
+    top: 120px;
+    bottom: 169px;
+}
+.instagram{
+    height: 4px;
+    width: 5px;
+    position: absolute;
+    left: 140px;
+    top: 120px;
+    bottom: 169px;
+}
+.facebook{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 207px;
+    top: 120px;
+    bottom: 169px;
+}
+.twitter{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 274px;
+    top: 120px;
+    bottom: 169px;
+}
+.email{
+    position: absolute;
+width: 0px;
+height: 22px;
+left: 23px;
+top: 17px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.emailtext{
+    color: #ff7200;
+    position: absolute;
+    width: 0px;
+    height: 22px;
+    left: 23px;
+    top: 3px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+}
+
