@@ -10,7 +10,8 @@
            <!-- hero section starts -->
                  <Section id="section1">
                     <div class="hero1">
-                        <img class="logo" src="images/pirate logo.png" alt="">
+                        <img class="logo" src="images/pirate logo.png" >
+                        <img class="navigation-menu-light" src="misc/navigation-menu-light.png" >
                         <nav class="navbar">
                             <ul>
                                 <li><a href="#section1">Home</a></li>
@@ -106,4 +107,13 @@
             </div>
 
 </body>
+
+<script>
+    const menuHamburger = document.querySelector(".navigation-menu-light")
+    const navLinks = document.querySelector(".navbar")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('navbar')
+    })
+</script>
 </html>

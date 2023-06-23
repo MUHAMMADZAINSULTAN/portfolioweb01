@@ -16,6 +16,7 @@ html{
 span{
     color: #ff7200;
 }
+
 .hero1{
     background-image: url(images/background\ img.png);
     width: 100%;
@@ -24,6 +25,9 @@ span{
     background-position: center;
     padding: 8px 3%;
     position: relative;
+}
+.navigation-menu-light{
+    display: none;
 }
 .logo{
     position: absolute;
@@ -61,7 +65,7 @@ ul li a{
     text-decoration: none;
     list-style: none;
     color: #ffffff;
-    margin-left: 62px;
+    margin-left: 50px;
     margin-top: 27;
     font-size: 16px;
     transition: 0.4s ease-in-out;
@@ -69,6 +73,7 @@ ul li a{
 ul li a:hover{
     color: #ff7200;
 }
+
 .zain{
     overflow: hidden;
     position: absolute;
@@ -493,6 +498,8 @@ line-height: 22px;
 
 
 @media screen  and ( max-width: 800px  ) {
+    
+
     .hero1{
     background-image: url(images/background\ img.png);
     width: 100%;
@@ -502,12 +509,20 @@ line-height: 22px;
     padding: 4px 1%;
     position: relative;
 }
-.navbar{
-    display: none;
+.navigation-menu-light{
+    position: relative;
+    top: 15px;
+    left: 325px;
+    width: 25px;
+    height: 15px;
+
+    display: block;
 }
-/* .navbar{
+
+
+.navbar{
     position: absolute;
-    left: 480px;
+    left: 160px;
     top: 85px;
     width: 60px;
     height: 90px;
@@ -515,33 +530,40 @@ line-height: 22px;
     height: 70px;
     font-weight: thin;
     cursor: pointer;
+    margin: 100px;
+    overflow: hidden;
 }
+
 ul {
+    background-color: #ff730091;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
     font-family: 'Libre Franklin';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    list-style: none;
     color: #ffffff;
-    font-family: "Libre Franklin";
     display: flex;
-    float: left;
-    justify-content: center;
-    align-items: center;
+    flex-direction:column ;
+    position: absolute;
+    left: 160px;
+    top: 50px;
+    padding-right: 32px ;
+    z-index: 1;
+    transition: 2s;
 }
-ul li a{ 
+ul li a{
+    margin: 0;
+    display: block;
+    padding: 3px;
     text-decoration: none;
     list-style: none;
     color: #ffffff;
-    margin-left: 62px;
-    margin-top: 27;
     font-size: 16px;
     transition: 0.4s ease-in-out;
+    
 }
-ul li a:hover{
-    color: #ff7200;
-} */
 .logo{
     position: absolute;
     width: 30px;
