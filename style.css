@@ -551,7 +551,7 @@ ul {
     top: 50px;
     padding-right: 32px ;
     z-index: 1;
-    transition: 2s;
+    transition: 0.2s;
 }
 ul li a{
     margin: 0;
