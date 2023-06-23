@@ -42,8 +42,6 @@ span{
     height: 70px;
     font-weight: thin;
     cursor: pointer;
-    justify-content: space-between;
-    display: flex;
 }
 ul {
     font-family: 'Libre Franklin';
@@ -67,23 +65,9 @@ ul li a{
     margin-top: 27;
     font-size: 16px;
     transition: 0.4s ease-in-out;
-    
 }
 ul li a:hover{
     color: #ff7200;
-}
-ul li a{
-    display: block;
-    color: #FFFAF2;
-    padding: 10px 20px;
-    border-radius: 50px;
-    transition: 0.3s;
-}
-ul li a.active{
-    border-radius: 50px;
-    margin: 0 5px;
-    background-color: #ffffff;
-
 }
 .zain{
     overflow: hidden;
@@ -518,6 +502,9 @@ line-height: 22px;
     padding: 4px 1%;
     position: relative;
 }
+.navbar{
+    display: none;
+}
 /* .navbar{
     position: absolute;
     left: 480px;
@@ -615,7 +602,7 @@ ul li a:hover{
 .hero2{
     overflow: hidden;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     padding: 8px 3%;
@@ -661,11 +648,10 @@ ul li a:hover{
 }
 .hero3{
     background-color: #FFFAF2;
-    width: 100%;
+    width: 108.2%;
     height: 90vh;
     background-size: cover;
     background-position: center;
-    padding: 8px 3%;
     position: relative;
 }
 .skills{
@@ -812,7 +798,7 @@ top: 300px;
 }
 .hero5{
     background-color: #FFFAF2;
-        width: 100%;
+        width: 108.2%;
         height: 275px;
         background-size: cover;
         background-position: center;
