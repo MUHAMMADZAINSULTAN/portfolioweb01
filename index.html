@@ -115,5 +115,17 @@
     menuHamburger.addEventListener('click',()=>{
     navLinks.classList.toggle('navbar')
     })
+
+
+    function confirmationSplit(scope, modal) {
+        scope.modal = modal;
+            scope.modalInstance = $uibModal.open({
+                templateUrl: 'Scripts/app/Modals/ConfirmationSplit.html',
+                scope: scope,
+                size: 'md',
+                backdrop: modal.backdrop != null ? modal.backdrop : true,
+
+            })
+    }  
 </script>
 </html>
