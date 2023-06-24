@@ -29,6 +29,7 @@ span{
 .navigation-menu-light{
     display: none;
 }
+
 .logo{
     position: absolute;
     width: 60px;
@@ -515,11 +516,8 @@ line-height: 22px;
     left: 325px;
     width: 25px;
     height: 15px;
-
     display: block;
 }
-
-
 .navbar{
     position: absolute;
     left: 160px;
@@ -551,7 +549,6 @@ ul {
     top: 50px;
     padding-right: 32px ;
     z-index: 1;
-    transition: 0.2s;
 }
 ul li a{
     margin: 0;
